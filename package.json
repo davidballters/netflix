@@ -1,0 +1,15 @@
+{
+  "name": "netflix",
+  "version": "1.0.0",
+  "description": "Netflix Colombia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass src/scss/main.scss public/css/style.css --watch"
+  },
+  "author": "David Ballesteros",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
